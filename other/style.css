@@ -1,0 +1,49 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.blogpost {
+    margin-bottom:30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.admin-btn{
+    margin-top:20px;
+}
+
+.admin-delete-block{
+    width:500px;
+    text-align:center;
+}
+
+.noreadmore .readmore{
+    display:none;
+}
+
+.panel-body.narrow{
+    padding-top:0;
+}
+
+.post-tag {
+    padding:2px 5px;
+    background:#337ab7;
+    border-color:#2e6da4;
+    border-radius:3px;
+    color:#fff;
+}
+
+.tag-header{
+    margin-bottom: 30px;
+}
+
+#flash-message {
+    width:500px;
+    margin:15px auto;
+    padding: 17px 0 5px;
+    border-radius: 5px;
+    text-align:center;
+}

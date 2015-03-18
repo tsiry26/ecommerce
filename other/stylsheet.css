@@ -1,0 +1,171 @@
+li
+{
+    list-style: none;
+}
+
+
+.article, #container
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+p{
+    margin-left: 50px;
+}
+
+#description
+{
+    width: 200px;
+    height: 100px;
+    text-align: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+#price
+{
+    font-weight: bold;
+}
+.article
+{
+    margin-bottom: 50px;
+}
+#droit{
+    margin-left: 33rem;
+    padding-top: 10px;
+
+}
+li.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+.show{
+    display: block;
+    background-color: rgba(230, 230, 230, 0.87);
+
+}
+.sombre{
+    opacity: 0.3;
+}
+#divprice
+{
+    display: none;
+    width: 35%;
+    position: absolute;
+    top: 150px;
+    left:150px;
+    color: #858585;
+}
+.btn
+{
+    background: url("https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p50x50/382075_205962616147930_1581463420_n.jpg?oh=bb94ba8386773a164886fb7d01765982&oe=558361B0&__gda__=1435610278_6ba0a5358fadfe5d78191d7a3dd32604") no-repeat center 0;
+    width: 50px;
+    height: 50px;
+}
+
+tr td, tr th
+{
+     text-align: center;
+    padding: 10px;
+}
+#somme
+{
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.nbrProduct
+{
+    width: 40px;
+}
+#panier
+{
+    border: 2px rgba(190, 190, 190, 0.50) solid;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top:25%;
+    left: 20%;
+    background-color: #F8F8F8;
+}
+#panier table
+{
+
+    margin-left: 50px;
+}
+table tr th, table tr td
+{
+    width: 150px;
+}
+#panier
+{
+    display: none;
+}
+.movpanier
+{
+    display: block;
+}
+#valider
+{
+    background-color: #5bd4aa;
+    width: 75px;
+    height: 30px;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+div.showcontner
+{
+    opacity: 0.32;
+}
+td.rst{
+    font-size: 12px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    width: 18%;
+}
+.rating > li {
+    display: inline-block;
+    position: relative;
+    width: 3rem;
+    font-size: 3rem;
+    left: 0;
+}
+.rating > li:hover:before,
+.rating > li:hover ~ li:before
+ {
+    content: "\2605";
+    position: absolute;
+}
+.rating > .trust:before,
+.rating > .trust ~ li:before
+{
+    content: "\2605";
+    position: absolute;
+}
+meter{
+    width: 20px;
+    height: 15px;
+
+}
+#ajtproduct
+{
+  border: 1px #e5e4e4 solid;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 30px;
+    background-color: #F7F6F6;
+}
+#ajtproduct input,#ajtproduct textarea {
+    margin-bottom: 20px;
+}
